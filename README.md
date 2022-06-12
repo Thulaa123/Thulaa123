@@ -5,8 +5,6 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=thulaa123&label=Profile%20views&color=0e75b6&style=flat" alt="thulaa123" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=thulaa123" alt="thulaa123" /></a> </p>
-
 <p align="left"> <a href="https://twitter.com/thulanavinnath" target="blank"><img src="https://img.shields.io/twitter/follow/thulanavinnath?logo=twitter&style=for-the-badge" alt="thulanavinnath" /></a> </p>
 
 - 💬 Ask me about **flutter, firebase, PHP, gcp and aws**
