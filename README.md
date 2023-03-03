@@ -1,7 +1,7 @@
 [![MasterHead](https://bs-uploads.toptal.io/blackfish-uploads/components/seo/content/og_image_file/og_image/1096555/0408-FlutterMessangerDemo-Luke_Social-e8a0e8ddab86b503a125ebcad823c583.png)](#)
 <h1 align="center">Hi 👋, I'm Thulana Vinnath</h1>
 <h3 align="center">A Software developer from Sri Lanka</h3>
-<img align="right" alt="Coding" width="400" src="https://media4.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" style="border-radius: 25px;">
+<img align="right" alt="Coding" width="400" src="https://media4.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" style="border-radius:50%">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=thulaa123&label=Profile%20views&color=0e75b6&style=flat" alt="thulaa123" /> </p>
 
