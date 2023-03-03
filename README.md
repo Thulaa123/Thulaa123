@@ -1,5 +1,5 @@
 [![MasterHead](https://bs-uploads.toptal.io/blackfish-uploads/components/seo/content/og_image_file/og_image/1096555/0408-FlutterMessangerDemo-Luke_Social-e8a0e8ddab86b503a125ebcad823c583.png)](#)
-<h1 align="center">Hi <img height="50" src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif">, I'm Thulana Vinnath</h1>
+<h1 align="center">Hi <img height="20" src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif">, I'm Thulana Vinnath</h1>
 <h3 align="center">A Software developer from Sri Lanka</h3>
 <img align="right" alt="Coding" width="400" src="https://media4.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" style="border-radius:50%">
 
