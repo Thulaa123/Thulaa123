@@ -1,13 +1,13 @@
 [![MasterHead](https://bs-uploads.toptal.io/blackfish-uploads/components/seo/content/og_image_file/og_image/1096555/0408-FlutterMessangerDemo-Luke_Social-e8a0e8ddab86b503a125ebcad823c583.png)](#)
 <h1 align="center">Hi <img height="30" src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif">, I'm Thulana Vinnath</h1>
 <h3 align="center">A Software developer from Sri Lanka</h3>
-<img align="right" alt="Coding" width="400" src="https://media4.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" style="border-radius:50%">
+<img align="right" alt="Coding" width="400" src="https://media4.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" style="border-radius:50;">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=thulaa123&label=Profile%20views&color=0e75b6&style=flat" alt="thulaa123" /> </p>
 
 <p align="left"> <a href="https://twitter.com/thulanavinnath" target="blank"><img src="https://img.shields.io/twitter/follow/thulanavinnath?logo=twitter&style=for-the-badge" alt="thulanavinnath" /></a> </p>
 
-- 💬 Ask me about **flutter, firebase, PHP, gcp and aws**
+- 💬 Ask me about **flutter, firebase, PHP, GCP and aws**
 
 - 📫 How to reach me **vinnath112@gmail.com**
 
