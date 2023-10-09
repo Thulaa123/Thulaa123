@@ -84,7 +84,7 @@
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/thulaa123/thulaa123/output/snake.svg" alt="Snake animation" />
+![snake gif](https://github.com/thulaa123/thulaa123/blob/output/github-contribution-grid-snake.gif)
 
 ###
 
