@@ -84,7 +84,7 @@
 
 <br clear="both">
 
-![snake gif](https://github.com/thulaa123/thulaa123/blob/output/github-contribution-grid-snake.gif)
+![snake gif](https://github.com/Thulaa123/Thulaa123/blob/output/github-contribution-grid-snake.gif)
 
 ###
 
