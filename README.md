@@ -84,8 +84,6 @@
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/thulaa123/thulaa123/output/snake.svg" alt="Snake animation" />
-
 ###
 
 [![An image of @thulaa123's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/thulaa123)](https://holopin.io/@thulaa123)
