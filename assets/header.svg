@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="210" viewBox="0 0 1000 210" role="img" aria-labelledby="title desc">
+  <title id="title">Thulana Vinnath</title>
+  <desc id="desc">Full stack developer from Sri Lanka. Web, mobile, and cloud.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#121b32"/><stop offset="1" stop-color="#201738"/>
+    </linearGradient>
+    <linearGradient id="accent"><stop stop-color="#5eead4"/><stop offset="1" stop-color="#b99aff"/></linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#c4b5fd" stroke-opacity=".055"/></pattern>
+  </defs>
+  <rect width="1000" height="210" rx="18" fill="url(#bg)"/>
+  <rect width="1000" height="210" rx="18" fill="url(#grid)"/>
+  <circle cx="908" cy="-5" r="150" fill="none" stroke="#8b5cf6" stroke-opacity=".13" stroke-width="38"/>
+  <circle cx="930" cy="190" r="90" fill="none" stroke="#5eead4" stroke-opacity=".09" stroke-width="20"/>
+  <rect x="52" y="43" width="28" height="4" rx="2" fill="url(#accent)"/>
+  <text x="52" y="78" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="3" fill="#8de5db">FULL STACK DEVELOPER</text>
+  <text x="49" y="132" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700" letter-spacing="-1.4" fill="#f5f3ff">Thulana Vinnath</text>
+  <text x="52" y="169" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#b8bfd3">Web · Mobile · Cloud<tspan dx="22" fill="#888da6">/</tspan><tspan dx="22">Sri Lanka</tspan></text>
+  <text x="780" y="131" font-family="Menlo, Consolas, monospace" font-size="64" font-weight="700" fill="url(#accent)" opacity=".8">&lt;/&gt;</text>
+</svg>

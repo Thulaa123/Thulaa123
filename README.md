@@ -1,87 +1,65 @@
-<h2 align="left">Hi 👋! I am Thulana Vinnath and I'm a full stack developer, from Sri Lanka</h2>
-
-###
-
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=thulaa123&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=thulaa123&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
+
+<img src="./assets/header.svg" width="100%" alt="Thulana Vinnath — Full stack developer, Sri Lanka" />
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/thulana-still.png" />
+  <img src="./assets/thulana-wave.gif" width="224" height="270" alt="My animated character smiling and waving hello" />
+</picture>
+
+### Hey, I'm Thulana 👋
+
+Full stack developer from **Sri Lanka**. Exploring ideas across **web, mobile, and cloud**.
+
+<a href="https://www.linkedin.com/in/thulana-vinnath"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="mailto:vinnath112@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email me" /></a>
+<a href="https://www.instagram.com/thulaa.code/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" /></a>
+<a href="https://www.facebook.com/thulana.vinnath.3/"><img src="https://img.shields.io/badge/Facebook-0866FF?style=flat-square&logo=facebook&logoColor=white" alt="Facebook" /></a>
+
 </div>
 
-###
+<br />
 
-<img align="right" height="150" src="https://raw.githubusercontent.com/parth-27/parth-27/master/dev.gif"  />
+## My toolkit
 
-###
+| Area | Technologies |
+| :--- | :--- |
+| **Languages** | JavaScript · TypeScript · Python · Dart · Go · PHP |
+| **Web & mobile** | React · Node.js · Laravel · Flutter · CSS · Bootstrap |
+| **Databases** | MongoDB · MySQL · SQLite |
+| **Cloud & infrastructure** | Google Cloud · Firebase · Cloudflare · DigitalOcean · Netlify |
+| **Tools** | Docker · Nginx · Bitbucket |
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" alt="typescript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" height="30" alt="dart logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" height="30" alt="go logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="30" alt="php logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="30" alt="bootstrap logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="30" alt="mongodb logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/mysql/4479A1" height="30" alt="mysql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" height="30" alt="sqlite logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="react logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bitbucket/bitbucket-original.svg" height="30" alt="bitbucket logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/laravel/FF2D20" height="30" alt="laravel logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" height="30" alt="flutter logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/cloudflare/F38020" height="30" alt="cloudflare logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/digitalocean/digitalocean-original.svg" height="30" alt="digitalocean logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" height="30" alt="firebase logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" height="30" alt="googlecloud logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/docker/2496ED" height="30" alt="docker logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/netlify/00C7B7" height="30" alt="netlify logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/nodedotjs/339933" height="30" alt="nodejs logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/nginx/009639" height="30" alt="nginx logo"  />
-</div>
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="34" height="34" alt="TypeScript" />&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="34" height="34" alt="React" />&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="34" height="34" alt="Node.js" />&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" width="34" height="34" alt="Flutter" />&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="34" height="34" alt="Python" />&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" width="34" height="34" alt="Go" />&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="34" height="34" alt="Docker" />&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" width="34" height="34" alt="Google Cloud" />
+</p>
 
-###
+## Badges & community
 
-<div align="left">
-  <a href="https://www.linkedin.com/in/thulana-vinnath" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
-  </a>
-  <a href="https://www.instagram.com/thulaa.code/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo"  />
-  </a>
-  <a href="https://www.facebook.com/thulana.vinnath.3/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Facebook&logo=facebook&label=&color=1877F2&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="facebook logo"  />
-  </a>
-  <a href="mailto:vinnath112@gmail.com" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
-  </a>
-</div>
+[![Thulana's Holopin badge board — view my full collection](https://holopin.me/thulaa123)](https://holopin.io/@thulaa123)
 
-###
+<details>
+<summary><b>GitHub stats</b></summary>
 
-<br clear="both">
+<br />
 
-###
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=thulaa123&show_icons=true&include_all_commits=true&theme=transparent&hide_border=true&title_color=8b5cf6&icon_color=22b8cf" height="160" alt="Thulana's GitHub contribution statistics" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=thulaa123&layout=compact&langs_count=6&theme=transparent&hide_border=true&title_color=8b5cf6" height="160" alt="Most used languages across public repositories" />
+</p>
 
-[![An image of @thulaa123's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/thulaa123)](https://holopin.io/@thulaa123)
+</details>
+
+---
+
+<p align="center">
+  <a href="https://github.com/Thulaa123?tab=repositories">Explore my repositories</a> &nbsp;·&nbsp;
+  <a href="mailto:vinnath112@gmail.com">Say hello</a>
+</p>
