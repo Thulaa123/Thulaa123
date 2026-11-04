@@ -1,15 +1,13 @@
 <div align="center">
 
-<img src="./assets/header.svg" width="100%" alt="Thulana Vinnath — Full stack developer, Sri Lanka" />
+<img src="./assets/header.svg" width="100%" alt="Thulana Vinnath — full stack developer from Sri Lanka, with a photo at a developer event" />
 
-<img src="./assets/event-photo.jpg" width="760" alt="At a developer event, facing a room of attendees" />
+### Let’s connect
 
-<br /><br />
-
-<a href="https://www.linkedin.com/in/thulana-vinnath"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="mailto:vinnath112@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email me" /></a>
-<a href="https://www.instagram.com/thulaa.code/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" /></a>
-<a href="https://www.facebook.com/thulana.vinnath.3/"><img src="https://img.shields.io/badge/Facebook-0866FF?style=flat-square&logo=facebook&logoColor=white" alt="Facebook" /></a>
+<a href="https://www.linkedin.com/in/thulana-vinnath"><img src="./assets/social/linkedin.svg" width="200" height="86" alt="LinkedIn: thulana-vinnath" /></a>
+<a href="mailto:vinnath112@gmail.com"><img src="./assets/social/email.svg" width="200" height="86" alt="Email: vinnath112@gmail.com" /></a>
+<a href="https://www.instagram.com/thulaa.code/"><img src="./assets/social/instagram.svg" width="200" height="86" alt="Instagram: @thulaa.code" /></a>
+<a href="https://www.facebook.com/thulana.vinnath.3/"><img src="./assets/social/facebook.svg" width="200" height="86" alt="Facebook: thulana.vinnath.3" /></a>
 
 </div>
 
