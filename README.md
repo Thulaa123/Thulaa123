@@ -17,23 +17,52 @@ Full stack developer from **Sri Lanka**. Exploring ideas across **web, mobile, a
 
 ## My toolkit
 
-| Area | Technologies |
-| :--- | :--- |
-| **Languages** | JavaScript · TypeScript · Python · Dart · Go · PHP |
-| **Web & mobile** | React · Node.js · Laravel · Flutter · CSS · Bootstrap |
-| **Databases** | MongoDB · MySQL · SQLite |
-| **Cloud & infrastructure** | Google Cloud · Firebase · Cloudflare · DigitalOcean · Netlify |
-| **Tools** | Docker · Nginx · Bitbucket |
+### Languages
 
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="34" height="34" alt="TypeScript" />&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="34" height="34" alt="React" />&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="34" height="34" alt="Node.js" />&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" width="34" height="34" alt="Flutter" />&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="34" height="34" alt="Python" />&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" width="34" height="34" alt="Go" />&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="34" height="34" alt="Docker" />&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" width="34" height="34" alt="Google Cloud" />
+<p>
+  <img src="./assets/toolkit/javascript.svg" width="112" height="96" alt="JavaScript" />
+  <img src="./assets/toolkit/typescript.svg" width="112" height="96" alt="TypeScript" />
+  <img src="./assets/toolkit/python.svg" width="112" height="96" alt="Python" />
+  <img src="./assets/toolkit/dart.svg" width="112" height="96" alt="Dart" />
+  <img src="./assets/toolkit/go.svg" width="112" height="96" alt="Go" />
+  <img src="./assets/toolkit/php.svg" width="112" height="96" alt="PHP" />
+</p>
+
+### Web & mobile
+
+<p>
+  <img src="./assets/toolkit/react.svg" width="112" height="96" alt="React" />
+  <img src="./assets/toolkit/nodejs.svg" width="112" height="96" alt="Node.js" />
+  <img src="./assets/toolkit/laravel.svg" width="112" height="96" alt="Laravel" />
+  <img src="./assets/toolkit/flutter.svg" width="112" height="96" alt="Flutter" />
+  <img src="./assets/toolkit/css.svg" width="112" height="96" alt="CSS" />
+  <img src="./assets/toolkit/bootstrap.svg" width="112" height="96" alt="Bootstrap" />
+</p>
+
+### Databases
+
+<p>
+  <img src="./assets/toolkit/mongodb.svg" width="112" height="96" alt="MongoDB" />
+  <img src="./assets/toolkit/mysql.svg" width="112" height="96" alt="MySQL" />
+  <img src="./assets/toolkit/sqlite.svg" width="112" height="96" alt="SQLite" />
+</p>
+
+### Cloud & infrastructure
+
+<p>
+  <img src="./assets/toolkit/googlecloud.svg" width="112" height="96" alt="Google Cloud" />
+  <img src="./assets/toolkit/firebase.svg" width="112" height="96" alt="Firebase" />
+  <img src="./assets/toolkit/cloudflare.svg" width="112" height="96" alt="Cloudflare" />
+  <img src="./assets/toolkit/digitalocean.svg" width="112" height="96" alt="DigitalOcean" />
+  <img src="./assets/toolkit/netlify.svg" width="112" height="96" alt="Netlify" />
+</p>
+
+### Tools
+
+<p>
+  <img src="./assets/toolkit/docker.svg" width="112" height="96" alt="Docker" />
+  <img src="./assets/toolkit/nginx.svg" width="112" height="96" alt="Nginx" />
+  <img src="./assets/toolkit/bitbucket.svg" width="112" height="96" alt="Bitbucket" />
 </p>
 
 ## Badges & community
