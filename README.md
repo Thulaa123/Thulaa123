@@ -70,9 +70,10 @@
 ## GitHub stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=thulaa123&show_icons=true&include_all_commits=true&theme=transparent&hide_border=true&title_color=8b5cf6&icon_color=22b8cf" height="160" alt="Thulana's GitHub contribution statistics" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=thulaa123&layout=compact&langs_count=6&theme=transparent&hide_border=true&title_color=8b5cf6" height="160" alt="Most used languages across public repositories" />
+  <img src="./assets/stats/overview.svg" width="420" alt="Public GitHub overview: repositories, stars, followers, pull requests, issues, and forks" />
+  <img src="./assets/stats/languages.svg" width="420" alt="Most used languages by code bytes across public, non-fork repositories" />
 </p>
+
 
 ---
 
