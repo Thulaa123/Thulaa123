@@ -2,7 +2,7 @@
 
 <img src="./assets/header.svg" width="100%" alt="Thulana Vinnath — full stack developer from Sri Lanka, with a photo at a developer event" />
 
-### Let’s connect
+<h3><img src="./assets/headings/connect.svg" width="146" height="32" alt="Let’s connect" /></h3>
 
 <a href="https://www.linkedin.com/in/thulana-vinnath"><img src="./assets/social/linkedin.svg" width="200" height="86" alt="LinkedIn: thulana-vinnath" /></a>
 <a href="mailto:vinnath112@gmail.com"><img src="./assets/social/email.svg" width="200" height="86" alt="Email: vinnath112@gmail.com" /></a>
@@ -13,16 +13,16 @@
 
 <br />
 
-## GitHub stats
+<h2><img src="./assets/headings/github-stats.svg" width="168" height="38" alt="GitHub stats" /></h2>
 
 <p align="center">
   <img src="./assets/stats/overview.svg" width="420" alt="Public GitHub overview: repositories, stars, followers, pull requests, issues, and forks" />
   <img src="./assets/stats/languages.svg" width="420" alt="Most used languages by code bytes across public, non-fork repositories" />
 </p>
 
-## My toolkit
+<h2><img src="./assets/headings/my-toolkit.svg" width="138" height="38" alt="My toolkit" /></h2>
 
-### Languages
+<h3><img src="./assets/headings/languages.svg" width="120" height="32" alt="Languages" /></h3>
 
 <p>
   <img src="./assets/toolkit/javascript.svg" width="112" height="96" alt="JavaScript" />
@@ -33,7 +33,7 @@
   <img src="./assets/toolkit/php.svg" width="112" height="96" alt="PHP" />
 </p>
 
-### Web & mobile
+<h3><img src="./assets/headings/web-mobile.svg" width="150" height="32" alt="Web &amp; mobile" /></h3>
 
 <p>
   <img src="./assets/toolkit/react.svg" width="112" height="96" alt="React" />
@@ -44,7 +44,7 @@
   <img src="./assets/toolkit/bootstrap.svg" width="112" height="96" alt="Bootstrap" />
 </p>
 
-### Databases
+<h3><img src="./assets/headings/databases.svg" width="119" height="32" alt="Databases" /></h3>
 
 <p>
   <img src="./assets/toolkit/mongodb.svg" width="112" height="96" alt="MongoDB" />
@@ -52,7 +52,7 @@
   <img src="./assets/toolkit/sqlite.svg" width="112" height="96" alt="SQLite" />
 </p>
 
-### Cloud & infrastructure
+<h3><img src="./assets/headings/cloud-infrastructure.svg" width="229" height="32" alt="Cloud &amp; infrastructure" /></h3>
 
 <p>
   <img src="./assets/toolkit/googlecloud.svg" width="112" height="96" alt="Google Cloud" />
@@ -62,7 +62,7 @@
   <img src="./assets/toolkit/netlify.svg" width="112" height="96" alt="Netlify" />
 </p>
 
-### Tools
+<h3><img src="./assets/headings/tools.svg" width="68" height="32" alt="Tools" /></h3>
 
 <p>
   <img src="./assets/toolkit/docker.svg" width="112" height="96" alt="Docker" />
@@ -70,7 +70,7 @@
   <img src="./assets/toolkit/bitbucket.svg" width="112" height="96" alt="Bitbucket" />
 </p>
 
-## Badges & community
+<h2><img src="./assets/headings/badges-community.svg" width="271" height="38" alt="Badges &amp; community" /></h2>
 
 [![Thulana's Holopin badge board — view my full collection](https://holopin.me/thulaa123)](https://holopin.io/@thulaa123)
 

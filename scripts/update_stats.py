@@ -18,6 +18,14 @@ import subprocess
 
 PALETTE = ['#a78bfa', '#5eead4', '#60a5fa', '#fbbf24', '#f472b6', '#fb923c', '#94a3b8']
 
+MOTION_STYLES = """
+.motion-bars{transform-origin:24px 78px;animation:bar-reveal 1.2s cubic-bezier(.22,1,.36,1) both}
+.motion-edge{animation:edge-travel 14s linear infinite;opacity:.55}
+@keyframes bar-reveal{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes edge-travel{from{stroke-dashoffset:0}to{stroke-dashoffset:-1000}}
+@media(prefers-reduced-motion:reduce){.motion-bars,.motion-edge{animation:none!important;transform:none!important}.motion-edge{opacity:.18}}
+"""
+
 
 def api(endpoint, paginate=False):
     command = ['gh', 'api', endpoint]
@@ -106,12 +114,13 @@ def text(value, x, y, size=13, color='#c5cee0', weight=400):
 def card(title, description, body, date):
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="480" height="260" viewBox="0 0 480 260" role="img" aria-labelledby="title desc">
 <title id="title">{escape(title)}</title><desc id="desc">{escape(description)}</desc>
+<style>{MOTION_STYLES}</style>
 <defs><linearGradient id="background" x2="1" y2="1"><stop stop-color="#101c2e"/><stop offset="1" stop-color="#1b1830"/></linearGradient></defs>
 <rect x=".5" y=".5" width="479" height="259" rx="18" fill="url(#background)" stroke="#303c53"/>
 <g data-font="DM Sans">{text(title,24,36,20,'#e9e6ff',700)}
 {body}
 <path d="M24 222H456" stroke="#303c53"/>{text('Updated '+date+' · public GitHub data',24,243,10,'#94a3b8')}
-</g></svg>\n'''
+</g><rect x="1.5" y="1.5" width="477" height="257" rx="17" fill="none" stroke="#8b5cf6" stroke-width="1.5" pathLength="1000" stroke-dasharray="80 920" class="motion-edge"/></svg>\n'''
 
 
 def render_stats(data, date):
@@ -135,10 +144,12 @@ def render_languages(data, date):
         body += text('No public language data yet',24,120,16)
     else:
         x=24
+        body+='<g class="motion-bars">'
         for i,(name,size) in enumerate(languages):
             width=432*size/total
             body+=f'<rect x="{x:.3f}" y="78" width="{width:.3f}" height="13" fill="{PALETTE[i]}"/>'
             x+=width
+        body+='</g>'
         for i,(name,size) in enumerate(languages):
             x=24+(i%2)*222;y=123+(i//2)*32
             body+=f'<circle cx="{x+4}" cy="{y-4}" r="4" fill="{PALETTE[i]}"/>'

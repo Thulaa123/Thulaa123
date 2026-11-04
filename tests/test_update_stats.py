@@ -39,6 +39,15 @@ class StatsTests(unittest.TestCase):
         self.assertTrue(label.get('d'))
         self.assertNotIn('@font-face',svg)
 
+    def test_animation_and_reduced_motion_survive_refresh(self):
+        svg=stats.render_languages({'languages':[('Python',100)]},'04 Nov 2026')
+        root=ET.fromstring(svg)
+        self.assertIn('prefers-reduced-motion:reduce',svg)
+        self.assertIn('animation:none!important',svg)
+        self.assertTrue(any(node.get('class')=='motion-bars' for node in root.iter()))
+        self.assertTrue(any(node.get('class')=='motion-edge' for node in root.iter()))
+        self.assertFalse(any(node.tag.endswith('script') for node in root.iter()))
+
     def test_empty_languages(self):
         svg=stats.render_languages({'languages':[]},'04 Nov 2026')
         ET.fromstring(svg);self.assertIn('No public language data yet',svg)
