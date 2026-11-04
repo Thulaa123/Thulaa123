@@ -13,6 +13,13 @@
 
 <br />
 
+## GitHub stats
+
+<p align="center">
+  <img src="./assets/stats/overview.svg" width="420" alt="Public GitHub overview: repositories, stars, followers, pull requests, issues, and forks" />
+  <img src="./assets/stats/languages.svg" width="420" alt="Most used languages by code bytes across public, non-fork repositories" />
+</p>
+
 ## My toolkit
 
 ### Languages
@@ -66,13 +73,6 @@
 ## Badges & community
 
 [![Thulana's Holopin badge board — view my full collection](https://holopin.me/thulaa123)](https://holopin.io/@thulaa123)
-
-## GitHub stats
-
-<p align="center">
-  <img src="./assets/stats/overview.svg" width="420" alt="Public GitHub overview: repositories, stars, followers, pull requests, issues, and forks" />
-  <img src="./assets/stats/languages.svg" width="420" alt="Most used languages by code bytes across public, non-fork repositories" />
-</p>
 
 
 ---

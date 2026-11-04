@@ -7,6 +7,8 @@ on:
     branches: [main]
     paths:
       - scripts/update_stats.py
+      - scripts/requirements-stats.txt
+      - assets/fonts/**
       - tests/test_update_stats.py
       - .github/workflows/profile-stats.yml
 permissions:
@@ -22,12 +24,16 @@ jobs:
       - uses: actions/checkout@v7.0.1
         with:
           ref: main
+      - name: Install font rendering dependencies
+        run: |
+          python3 -m venv .stats-venv
+          .stats-venv/bin/python -m pip install -r scripts/requirements-stats.txt
       - name: Check card generation
-        run: python3 -m unittest discover -s tests -v
+        run: .stats-venv/bin/python -m unittest discover -s tests -v
       - name: Generate public GitHub stats
         env:
           GH_TOKEN: ${{ github.token }}
-        run: python3 scripts/update_stats.py
+        run: .stats-venv/bin/python scripts/update_stats.py
       - name: Commit refreshed cards
         run: |
           if git diff --quiet -- assets/stats; then

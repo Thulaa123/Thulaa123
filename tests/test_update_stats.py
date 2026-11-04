@@ -30,6 +30,15 @@ class StatsTests(unittest.TestCase):
         self.assertIn('A&amp;B &lt;script&gt;',svg)
         self.assertNotIn('<script>',svg)
 
+    def test_dm_sans_is_self_contained(self):
+        svg=stats.render_languages({'languages':[('Python',100)]},'04 Nov 2026')
+        root=ET.fromstring(svg)
+        self.assertIn('data-font="DM Sans"',svg)
+        self.assertFalse(root.findall('.//{http://www.w3.org/2000/svg}text'))
+        label=next(node for node in root.iter() if node.get('aria-label')=='Python')
+        self.assertTrue(label.get('d'))
+        self.assertNotIn('@font-face',svg)
+
     def test_empty_languages(self):
         svg=stats.render_languages({'languages':[]},'04 Nov 2026')
         ET.fromstring(svg);self.assertIn('No public language data yet',svg)

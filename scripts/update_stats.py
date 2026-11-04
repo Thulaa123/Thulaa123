@@ -5,6 +5,13 @@ from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from html import escape
+from functools import lru_cache
+import io
+from fontTools.ttLib import TTFont
+from fontTools.varLib.instancer import instantiateVariableFont
+from fontTools.pens.svgPathPen import SVGPathPen
+from fontTools.pens.transformPen import TransformPen
+import uharfbuzz as hb
 import json
 from pathlib import Path
 import subprocess
@@ -64,8 +71,36 @@ def collect(username):
     }
 
 
+@lru_cache(maxsize=32)
+def font_instance(weight, size):
+    path = Path(__file__).resolve().parents[1] / 'assets/fonts/DM-Sans.ttf'
+    font = instantiateVariableFont(TTFont(path), {'wght': weight, 'opsz': max(9, min(40, size))}, inplace=True)
+    buffer = io.BytesIO()
+    font.save(buffer)
+    face = hb.Face(buffer.getvalue())
+    shaped_font = hb.Font(face)
+    shaped_font.scale = (face.upem, face.upem)
+    return font, shaped_font, face.upem
+
+
 def text(value, x, y, size=13, color='#c5cee0', weight=400):
-    return f'<text x="{x}" y="{y}" fill="{color}" font-size="{size}" font-weight="{weight}">{escape(str(value))}</text>'
+    # Paths keep the real DM Sans letterforms when GitHub renders the SVG as an image.
+    font, shaped_font, upem = font_instance(weight, size)
+    glyphs = font.getGlyphSet()
+    names = font.getGlyphOrder()
+    buffer = hb.Buffer()
+    buffer.add_str(str(value))
+    buffer.guess_segment_properties()
+    hb.shape(shaped_font, buffer)
+    pen = SVGPathPen(glyphs)
+    scale = size / upem
+    for info, position in zip(buffer.glyph_infos, buffer.glyph_positions):
+        transform = TransformPen(pen, (scale, 0, 0, -scale,
+                                       x + position.x_offset * scale,
+                                       y - position.y_offset * scale))
+        glyphs[names[info.codepoint]].draw(transform)
+        x += position.x_advance * scale
+    return f'<path aria-label="{escape(str(value), quote=True)}" fill="{color}" d="{pen.getCommands()}"/>'
 
 
 def card(title, description, body, date):
@@ -73,7 +108,7 @@ def card(title, description, body, date):
 <title id="title">{escape(title)}</title><desc id="desc">{escape(description)}</desc>
 <defs><linearGradient id="background" x2="1" y2="1"><stop stop-color="#101c2e"/><stop offset="1" stop-color="#1b1830"/></linearGradient></defs>
 <rect x=".5" y=".5" width="479" height="259" rx="18" fill="url(#background)" stroke="#303c53"/>
-<g font-family="Arial, Helvetica, sans-serif">{text(title,24,36,20,'#e9e6ff',700)}
+<g data-font="DM Sans">{text(title,24,36,20,'#e9e6ff',700)}
 {body}
 <path d="M24 222H456" stroke="#303c53"/>{text('Updated '+date+' · public GitHub data',24,243,10,'#94a3b8')}
 </g></svg>\n'''
