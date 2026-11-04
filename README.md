@@ -2,11 +2,6 @@
 
 <img src="./assets/header.svg" width="100%" alt="Thulana Vinnath — Full stack developer, Sri Lanka" />
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/thulana-still.png" />
-  <img src="./assets/thulana-wave.gif" width="224" height="270" alt="My animated character smiling and waving hello" />
-</picture>
-
 ### Hey, I'm Thulana 👋
 
 Full stack developer from **Sri Lanka**. Exploring ideas across **web, mobile, and cloud**.
