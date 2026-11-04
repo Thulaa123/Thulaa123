@@ -40,17 +40,12 @@ Full stack developer from **Sri Lanka**. Exploring ideas across **web, mobile, a
 
 [![Thulana's Holopin badge board — view my full collection](https://holopin.me/thulaa123)](https://holopin.io/@thulaa123)
 
-<details>
-<summary><b>GitHub stats</b></summary>
-
-<br />
+## GitHub stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=thulaa123&show_icons=true&include_all_commits=true&theme=transparent&hide_border=true&title_color=8b5cf6&icon_color=22b8cf" height="160" alt="Thulana's GitHub contribution statistics" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=thulaa123&layout=compact&langs_count=6&theme=transparent&hide_border=true&title_color=8b5cf6" height="160" alt="Most used languages across public repositories" />
 </p>
-
-</details>
 
 ---
 
