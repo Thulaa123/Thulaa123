@@ -2,9 +2,9 @@
 
 <img src="./assets/header.svg" width="100%" alt="Thulana Vinnath — Full stack developer, Sri Lanka" />
 
-### Hey, I'm Thulana 👋
+<img src="./assets/event-photo.jpg" width="760" alt="At a developer event, facing a room of attendees" />
 
-Full stack developer from **Sri Lanka**. Exploring ideas across **web, mobile, and cloud**.
+<br /><br />
 
 <a href="https://www.linkedin.com/in/thulana-vinnath"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="mailto:vinnath112@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email me" /></a>
